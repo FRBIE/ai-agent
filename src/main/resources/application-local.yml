@@ -1,8 +1,6 @@
 spring:
   application:
     name: ai-agent
-  profiles:
-    active: local
 server:
   port: 8000
   servlet:
@@ -24,3 +22,6 @@ knife4j:
   enable: true
   setting:
     language: zh_cn
+# 阿里云 AI 配置
+aliYunAi:
+  apiKey: sk-319570f959294b498a204d858a5b13f4
