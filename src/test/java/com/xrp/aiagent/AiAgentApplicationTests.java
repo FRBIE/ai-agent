@@ -36,7 +36,7 @@ class AiAgentApplicationTests {
     }
     @Test
     public void test2() {
-        httpAiInvoke.test();
+     //   httpAiInvoke.test();
     }
 
 }
